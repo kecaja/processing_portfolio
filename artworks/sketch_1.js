@@ -1,18 +1,19 @@
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(400, 400);
     r = 1
     i = 1
     h = 1
     h_d = 1
     noStroke()
     background(220);
+    fill(random(255), random(255), random(255), 2)
   }
   
   function draw() {
     
     circle(width/2, h, r)
     r += i
-    if(r>width/1.4){
+    if(r>width){
       i = -3
       fill(random(255), random(255), random(255), 2)
     }
