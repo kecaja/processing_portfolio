@@ -15,6 +15,7 @@ function initializeGallery() {
     const artworks = [
         'artworks/sketch_1.js',
         'artworks/sketch_2.js',
+        'artworks/sketch_3.js',
         // Add more script filenames as needed
     ];
 
