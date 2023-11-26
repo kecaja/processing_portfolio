@@ -64,7 +64,7 @@ function initializeGallery() {
 
 // Fetch the list of artwork scripts dynamically and sort them by date
 async function fetchAndSortArtworkScripts() {
-    const response = await fetch('artworks/'); // Adjust the path to your artworks folder
+    const response = await fetch('tree/main/artworks/'); // Adjust the path to your artworks folder
     const body = await response.text();
     const parser = new DOMParser();
     const doc = parser.parseFromString(body, 'text/html');
